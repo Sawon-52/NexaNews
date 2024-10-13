@@ -1,9 +1,10 @@
+import pic from "../../assets/profile.jpg";
 const Profile = () => {
   return (
-    <div className="flex flex-col items-center gap-4 text-center bg-white  p-5 py-8 rounded-md">
+    <div className="flex flex-col items-center gap-4 text-center bg-white  p-5 py-8 rounded-md border-2">
       <div className="avatar">
         <div className="ring-primary ring-offset-base-100 w-14 rounded-full ring ring-offset-2">
-          <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+          <img src={pic} />
         </div>
       </div>
       <div>
